@@ -119,6 +119,7 @@ main:has(#main-container #quiz) {
 
 #quiz form {
     display: flex;
+    flex-direction: column;
     gap: 0.8em;
     padding: 0.8em 0;
 }
@@ -134,6 +135,8 @@ main:has(#main-container #quiz) {
     align-items: center;
     font-size: 0.85rem;
     cursor: pointer;
+    display:flex;
+    justify-content: center;
 }
 
 #quiz .option:hover {
@@ -181,6 +184,16 @@ main:has(#main-container #quiz) {
     gap: 1em;
 }
 
+@media (min-width: 500px) {
+    #quiz .option {
+        justify-content: start;
+    }
+
+    #quiz form {
+        flex-direction: row;
+    }
+}
+
 @media (min-width: 800px) {
     #main-container {
         max-width: 800px;
@@ -194,11 +207,4 @@ main:has(#main-container #quiz) {
         font-size: 4rem;
     }
 }
-
-#loading-screen {
-    width:100vw;
-    height:100vh;
-    background:var(--app-background-color);
-    position:fixed;
-    z-index:5;
-}
+  
