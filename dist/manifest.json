@@ -1,8 +1,7 @@
 {
     "name": "Quizzical",
     "short_name": "Quizzical",
-    "description": "A sample React app",
-    "start_url": "/",
+    "description": "The Quizzical Trivial App",
     "icons": [
       {
         "src": "/android-chrome-192x192.png",
@@ -28,9 +27,12 @@
         "src": "/favicon-32x32.png",
         "sizes": "32x32",
         "type": "image/png"
-      }
-
-      
+      },
+      {
+        "src": "/favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      }      
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",

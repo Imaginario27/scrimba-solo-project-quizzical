@@ -128,7 +128,7 @@ main:has(#main-container #quiz) {
     background: none;
     border: 1px solid var(--quiz-option-button-color);
     border-radius: 20px;
-    padding: 0.5em 0.8em;
+    padding: .8em;
     color: var(--main-text-color);
     text-align: center;
     display: flex;
@@ -178,20 +178,28 @@ main:has(#main-container #quiz) {
     color: var(--main-text-color);
 }
 
-#quiz #footer-container div {
+#quiz #footer-container #footer-inner {
     display: flex;
+    flex-direction: column; 
     align-items: center;
+    gap: 1em;
+}
+
+#quiz #footer-container #btn-container {
+    display: flex;
     gap: 1em;
 }
 
 @media (min-width: 500px) {
     #quiz .option {
         justify-content: start;
+        padding: 0.5em 0.8em;
     }
 
     #quiz form {
         flex-direction: row;
     }
+
 }
 
 @media (min-width: 800px) {
@@ -205,6 +213,10 @@ main:has(#main-container #quiz) {
     
     h1 {
         font-size: 4rem;
+    }
+
+    #quiz #footer-container #footer-inner {
+        flex-direction: row;
     }
 }
   

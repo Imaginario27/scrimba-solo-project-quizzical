@@ -100,10 +100,12 @@ export default function QuizQuestions (){
                     !quizCompleted ? 
                         <button onClick={checkAnswers}>Check answers</button>
                     :
-                        <div>
+                        <div id="footer-inner">
                             <p>You scored {score}/5 correct answers</p> 
-                            <button onClick={resetQuiz}>Reset</button>
-                            <button onClick={newQuiz}>New quiz</button>
+                            <div id="btn-container">
+                                <button onClick={resetQuiz}>Reset</button>
+                                <button onClick={newQuiz}>New quiz</button>
+                            </div>
                         </div>
                 }
                 
