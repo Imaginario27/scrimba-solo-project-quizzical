@@ -1,3 +1,5 @@
+https://solo-project-quizzical-img27.netlify.app/
+
 # Quizzical
 
 Quizzical is a react game app that has been developed for the Scrimba course "Frontend Developer Career Path".
