@@ -1,4 +1,4 @@
-https://solo-project-quizzical-img27.netlify.app/
+App Url: https://solo-project-quizzical-img27.netlify.app/
 
 # Quizzical
 
