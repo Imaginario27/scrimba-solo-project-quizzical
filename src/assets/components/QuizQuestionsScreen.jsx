@@ -82,6 +82,9 @@ export default function QuizQuestions (){
 
     return (
         <div id="quiz">
+            <div id="quiz-header">
+                <h1>Quizzical</h1>
+            </div>
             {
                 questions.map((question, index) => (
                     <QuizQuestion

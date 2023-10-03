@@ -72,7 +72,7 @@ main:has(#main-container #start-screen) {
 }
 
 main:has(#main-container #quiz) {
-    height: auto;
+    height: 100vh;
 }
 
 #main-container {
@@ -108,6 +108,15 @@ main:has(#main-container #quiz) {
 /**************************
     Quiz
 **************************/
+#quiz-header {
+    margin-bottom:1em;
+    border-bottom: 1px solid var(--quiz-question-line);
+}
+
+#quiz-header h1 {
+    text-align: center;
+}
+
 .quiz-question {
     border-bottom: 1px solid var(--quiz-question-line);
     padding: 1em 0;
@@ -199,12 +208,13 @@ main:has(#main-container #quiz) {
     #quiz form {
         flex-direction: row;
     }
-
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
     #main-container {
-        max-width: 800px;
+        max-width: 1024px;
+        display:flex;
+        align-items: center;
     }
 
     #start-screen p {
