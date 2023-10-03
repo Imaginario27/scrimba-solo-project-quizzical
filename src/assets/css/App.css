@@ -126,6 +126,10 @@ main:has(#main-container #quiz) {
     border-bottom: none;
 }
 
+#quiz {
+    padding: 1em 0;
+}
+
 #quiz form {
     display: flex;
     flex-direction: column;
