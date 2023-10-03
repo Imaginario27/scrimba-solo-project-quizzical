@@ -1,4 +1,4 @@
-# Scrimba Quizzical Trivial Game
+# Quizzical Trivial Game
 
 Quizzical is a fun and interactive trivia game that challenges your knowledge with random questions from the Open Trivial DB API. Test your wits and see how many questions you can answer correctly!
 
