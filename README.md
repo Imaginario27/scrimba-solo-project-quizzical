@@ -22,7 +22,8 @@ You can try out Quizzical by visiting the [app page](https://scrimba-trivial-qui
 7. To play again, click the "New Quiz" button for a new set of questions.
 
 ## Screenshot
-![Screenshot](https://imaginario27.com/wp-content/uploads/2023/09/generador-contrasenas-app.jpg)
+![Screenshot - Start screen](https://imaginario27.com/wp-content/uploads/2023/10/quizzical-trivial-game-start-screen.png)
+![Screenshot - Quiz game](https://imaginario27.com/wp-content/uploads/2023/10/quizzical-trivial-game-quiz.png)
 
 ## Acknowledgments
 This project was inspired by the Quizzical Quiz Game from Scrimba.
